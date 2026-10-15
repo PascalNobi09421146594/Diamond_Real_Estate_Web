@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Log in</title>
+	<link rel="stylesheet" type="text/css" href="CSS/login.css">
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+	
+
+	<script type="text/javascript" src="javascript/login.js"></script>
+
+</head>
+<body>
+	
+	<div class="container">
+		
+		<a href="INDEX.html"><div class="pho"><img src="images/logo-no-background.png" width="150px"></div></a>
+		<div class="form"  >
+			<form  onsubmit="return validate()">	
+				<h1 align="center">Login</h1>
+
+				
+				<input type="text" placeholder="Username / Email*" id="username">
+                <span id="mylocation"></span>
+				<br>
+				<br>
+				<div class="pwcon">	
+					<input type="password" placeholder="Password*" id="pw" >
+					<i class="fa-regular fa-eye-slash fa-xl pwicon" style="color: #1a3b74;"onclick="visible()"></i>
+					<span id="mylocation2"></span>
+				</div>
+				<br>
+				<br>
+				
+				<a href="#"  class="left">FORGOT PASSWORD</a>
+				<input class="right" type="submit" value="Login" name="LOGIN" id="but">
+
+				<br>
+				<br>
+				
+				<h3 align="center" style="color: red;"><b>Don't have an account? </b></h3>
+				 <br>
+				<a href="Signup.html" style="text-align: center;">CLICK HERE TO SIGN UP</a>
+				<br>
+				<br>
+				<hr>
+				<p align="center">OR</p>
+				<br>
+				<br>		
+
+				<div class="icons">	
+						<a href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-2xl" style="color: #254b8e;"></i></a>
+						<a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-2xl" style="color: #aa3166;"></i></a>
+						<a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin fa-2xl" style="color: #aa3166;"></i></a>
+						
+				</div>
+				
+
+				<br>
+				<br>																																													
+
+
+			</form>
+			
+			</div>
+
+	</div>
+		
+		
+	
+
+
+	
+</body>
+</html>
+
+

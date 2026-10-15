@@ -1,0 +1,136 @@
+* {
+	box-sizing: border-box;
+
+}
+body{
+	
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 10% ;
+	background-size: cover;
+	
+	background-image: url("../houseimg/house8.webp");
+
+}
+label{
+	padding-right: 100px;
+}
+
+.form{
+	
+	margin:0 auto;
+	margin-top: 100px;
+}
+.pho{
+	position: absolute;
+	margin-top: 0;
+	top: 0;
+}
+.img{
+	box-shadow: 5px 5px 15px 2px gray;
+	margin-left: 150px;
+	
+}
+form{
+
+	margin:0 auto;
+/*	opacity: 0.6;*/
+	
+	
+	text-align: center;
+	border-radius: 20px;
+/*	background: whitesmoke;*/
+	background: whitesmoke;
+	
+	width:500px;
+	height: 100%;
+	padding: 20px ;
+/*	box-shadow: 5px 10px 10px 5px gray;*/
+	
+}
+a{
+	text-decoration: none;
+	color: skyblue;
+
+}
+#username,#pw{
+
+	border-radius: 10px;
+	height: 60px;
+	width: 100%;
+	border: 1px solid black;
+}
+h1{
+	color: darkblue;
+	font-size: 38px;
+}
+.left{
+	text-align: left;
+	padding-right: 100px;
+}
+.right{
+	text-align: right;
+}
+#but{
+	background: skyblue;
+	height: 40px;
+	width: 100px;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid white;
+	color: white;
+}
+#back{
+	background: skyblue;
+	height: 40px;
+	width: 100px;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid white;
+	color: white;
+	cursor: pointer;
+}
+::placeholder {
+    font-weight: bold;
+    color: black;
+    }
+input[name="LOGIN"] {
+    font-weight: bold;
+    font-size: 20px;
+
+    }
+.pwcon{
+	position: relative;
+}
+.pwicon{
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: Y(-50%);
+    cursor: pointer;
+
+}
+#pw2{
+
+	border-radius: 10px;
+	height: 60px;
+	width: 100%;
+	border: 1px solid black;
+}
+#email{
+
+	border-radius: 10px;
+	height: 60px;
+	width: 100%;
+	border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+

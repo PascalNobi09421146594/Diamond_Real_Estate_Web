@@ -1,0 +1,37 @@
+
+.about-us {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+}
+
+.about-us h2 {
+    color: #18953e;
+}
+
+.about-us p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.about-us h3 {
+    color: #18953e;
+    margin-top: 20px;
+}
+
+
+.about-us h3:nth-of-type(3) {
+    margin-top: 40px;
+}
+
+
+.about-us h3:nth-of-type(4) {
+    margin-top: 40px;
+}
+
+
+@media (max-width: 768px) {
+    .about-us {
+        padding: 20px;
+    }
+}

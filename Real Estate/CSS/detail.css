@@ -1,0 +1,194 @@
+img {
+  vertical-align: middle;
+}
+
+
+.gallery-container {
+  position: relative;
+  width: 80%;
+  margin-left: 10%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+ #letter ul li{
+  list-style: none;
+  float: left;
+  padding: 20px;
+
+}
+
+
+.form{
+  
+  margin:0 auto;
+  margin-top: 100px;
+}
+.pho{
+  position: absolute;
+  margin-top: 0;
+  top: 0;
+}
+.img{
+  box-shadow: 5px 5px 15px 2px gray;
+  margin-left: 150px;
+  
+}
+form{
+
+  margin:0 auto;
+/*  opacity: 0.6;*/
+  
+  
+  text-align: center;
+  border-radius: 20px;
+/*  background: whitesmoke;*/
+  background: whitesmoke;
+  
+  width:30%;
+  height: 100%;
+  padding: 20px ;
+/*  box-shadow: 5px 10px 10px 5px gray;*/
+  
+}
+a{
+  text-decoration: none;
+  color: skyblue;
+
+}
+#username,#pw{
+
+  border-radius: 10px;
+  height: 60px;
+  width: 100%;
+  border: 1px solid black;
+}
+.mid h1{
+  color: darkblue;
+  font-size: 38px;
+}
+.left{
+  text-align: left;
+  padding-right: 100px;
+}
+.right{
+  text-align: right;
+}
+#but{
+  background: skyblue;
+  height: 40px;
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+}
+
+::placeholder {
+    font-weight: bold;
+    color: black;
+    }
+input[name="LOGIN"] {
+    font-weight: bold;
+    font-size: 20px;
+
+    }
+.pwcon{
+  position: relative;
+}
+.pwicon{
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: Y(-50%);
+    cursor: pointer;
+
+}
+#pw2{
+
+  border-radius: 10px;
+  height: 60px;
+  width: 100%;
+  border: 1px solid black;
+}
+#email{
+
+  border-radius: 10px;
+  height: 60px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+
+
